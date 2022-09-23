@@ -1,33 +1,44 @@
-/* TODO: Label selector type */
-* {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
-
-/* TODO: Label selector type */
-body {
-  background-color: lemonchiffon;
-}
-
-header,
-footer {
+header {
   width: 100%;
-  height: 100px;
-  line-height: 100px;
-  color: #f0ead6;
-  background-color: #191970;
+  background-color: lightblue;
 }
 
-figure {
-  width: 200px;
-  background-color: #f0ead6;
+h2 {
+  text-align: left;
 }
 
-/* TODO: Label selector type */
-.highlighted-text {
-  font-weight: bolder;
+ul {
+  text-align: right;
+  color: #ffffff;
 }
 
-/* TODO: Label selector type */
-#contact-section {
-  background-color: #f0ead6;
+/* List items in navigation bar */
+li {
+  /* TODO: Add your code here */
+  list-style-type: none;
+  font-size: 40px;
+}
+
+/* Boxes */
+img {
+  /* TODO: Add your code here */
+  margin: 0 auto;
+}
+
+#item-1 {
+  background-color: #e0115f;
+}
+
+#item-2 {
+  background-color: #0000ff;
+}
+
+#item-3 {
+  background-color: #999900;
+}
+
+/* Box 3 */
+#image-3 {
+  /* TODO: Add your code here */
+  display: none;
 }
