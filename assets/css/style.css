@@ -1,47 +1,18 @@
-header {
-  width: 100%;
-  background-color: lightblue;
+section {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
 }
 
-h2 {
-  text-align: left;
-}
-
-ul {
-  text-align: right;
-  color: #ffffff;
-}
-
-/* List items in navigation bar */
-li {
-  /* TODO: Add your code here */
-  list-style-type: none;
-  font-size: 40px;
-  display: inline;
-}
-
-/* Boxes */
 img {
-  /* TODO: Add your code here */
-  margin: 0 auto;
-  display: block;
-}
-
-#item-1 {
-  background-color: #e0115f;
-}
-
-#item-2 {
-  background-color: #0000ff;
-}
-
-#item-3 {
-  background-color: #999900;
-}
-
-/* Box 3 */
-#image-3 {
-  /* TODO: Add your code here */
-  display: block;
-  
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  /* TODO: Add a margin property */
+  margin: 20px;
+  /* TODO: Add a padding property */
+  padding: 20px;
+  /* TODO: Add a border property */
+  border: 9px solid darkblue;
 }
