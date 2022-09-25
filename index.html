@@ -1,36 +1,49 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>CSS Positioning</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  </head>
-
-  <body>
+    <title>Mini-Project</title>
+</head>
+<body>
     <header>
-      <h1>CSS Positioning</h1>
+        <nav>
+            <h1>Landing Page</h1>
+            <ul>
+                <li id="about">About</li>
+                <li id="contect">Contect</li>
+            </ul>
+        </nav>
     </header>
+    <section class="about">
+        <h2>About</h2>
+        <p><strong>
+            ipsum dolor sit amet consectetur, adipisicing elit. Omnis porro asperiores, itaque nisi nulla pariatur voluptatum ipsum! Distinctio quidem, voluptas libero totam labore enim. Illum optio impedit sapiente commodi qui!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sint ullam labore facere ab maiores fugiat, aut sapiente ipsam expedita cumque laboriosam, dolorum porro alias distinctio nobis autem. Commodi, doloremque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt ad in ut culpa, necessitatibus molestias praesentium? Ipsum alias, repellat odio consectetur impedit, quis ipsam, soluta ea voluptate quisquam accusantium?
+         </strong> </p>
+    </section>
+    <h2>Contect Form</h2>
+    <section class="contect">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
 
-    <main>
-      <section>
-        <h2>Square 1: Relative Position</h2>
-        <div class="container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="relative-box-2" src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
-      </section>
+            <label for="fname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
 
-      <section>
-        <h2>Square 2: Absolute Position</h2>
-        <div class="container absolute-container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
-      </section>
-    </main>
-  </body>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="johndoe@mail.com">
 
+            <label for="tel">Tel</label>
+            <input type="number" id="tel" placeholder="+44">
+
+            <input type="submit" value="submit">
+
+        </form>
+    </section>
+    <footer></footer>
+</body>
 </html>

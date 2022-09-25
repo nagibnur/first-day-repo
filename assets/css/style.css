@@ -1,58 +1,58 @@
-body {
-  position: relative;
-  margin: 0;
-  padding: 0;
+body{
+    background-color: rgb(232, 232, 237);
+}
+header{
+    height: 100px;
+    background-color: rgb(161, 161, 167);
 }
 
-main {
-  padding-top: 100px;
+footer{
+    height: 100px;
+    background-color: rgb(125, 125, 129);
+}
+.contect{
+    width: 50%;
+    border-radius: 5px;
+    background-color:#f2f2f2; 
+    padding: 20px;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
+input[type=text],[type=email],[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
-
-img {
-  display: block;
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
 }
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
 
-header {
-  position: fixed;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100px;
-  border-bottom: 10px solid darkblue;
-  background-color: lightblue;
 }
-
-/* Square 1 and 2 */
-.container {
-  width: 600px;
-  height: 600px;
-  margin: 20px auto;
-  border: 15px solid black;
+ul{
+    text-align: right;
 }
-
-/* Square 2 */
-.absolute-container {
-  position: relative;
+li{
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 8px;
 }
-
-/* Box 2 in Square 1 */
-#relative-box-2 {
-  position: relative;
-  left: 200px;
-  /* TODO: Set the position so it is centered in Square 1 */
-}
-
-/* Box 2 in Square 2 */
-#absolute-box-2 {
-  position: absolute;
-  top: 0;
-  left: 700px;
+h1{
   
-  /* TODO: Set the position so it is outside of the upper-right corner of Square 2 */
+    font-size: 25px;
+    padding: 8px;
 }
